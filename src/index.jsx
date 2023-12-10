@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <BrowserRouter basename="/rent-out-auto">
+        <BrowserRouter basename="/rent-our-auto">
           <App />
         </BrowserRouter>
       </PersistGate>
